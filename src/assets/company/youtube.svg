@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="32.000000pt" height="32.000000pt" viewBox="0 0 32.000000 32.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M52 263 c-24 -3 -36 -11 -43 -31 -14 -35 -7 -148 9 -164 9 -9 54 -14
+135 -16 159 -4 162 -2 162 107 0 47 -5 85 -12 92 -12 12 -192 21 -251 12z
+m152 -102 c3 -3 -13 -17 -35 -29 l-39 -23 0 50 0 50 35 -20 c19 -12 37 -24 39
+-28z"/>
+</g>
+</svg>
