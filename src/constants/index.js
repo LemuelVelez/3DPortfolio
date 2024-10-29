@@ -11,7 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  laravel,
   git,
   figma,
   appwrite,
@@ -92,8 +92,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "Three JS",
