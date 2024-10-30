@@ -7,17 +7,17 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import css from "./tech/css.svg";
 import appwrite from "./tech/appwrite.svg";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import figma from "./tech/figma.svg";
+import git from "./tech/git.svg";
+import html from "./tech/html.svg";
+import javascript from "./tech/javascript.svg";
 import laravel from "./tech/laravel.svg";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import nodejs from "./tech/nodejs.svg";
+import reactjs from "./tech/reactjs.svg";
+import tailwind from "./tech/tailwind.svg";
+import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
 
 import youtube from "./company/youtube.svg";
