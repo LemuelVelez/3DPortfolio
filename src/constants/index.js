@@ -3,16 +3,10 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
-  html,
-  css,
-  reactjs,
   tailwind,
   nodejs,
-  laravel,
   git,
-  figma,
   appwrite,
   youtube,
   kodego,
@@ -21,7 +15,6 @@ import {
   threejsportfolio,
   ssgtaskmanagement,
   nextjs,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -59,10 +52,6 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
   {
     name: "git",
     icon: git,
