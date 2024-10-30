@@ -20,6 +20,7 @@ import {
   nextjsportfolio,
   threejsportfolio,
   ssgtaskmanagement,
+  nextjs,
   threejs,
 } from "../assets";
 
@@ -79,18 +80,6 @@ const technologies = [
     icon: appwrite,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -105,6 +94,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "nextjs",
+    icon: nextjs,
   },
 ];
 

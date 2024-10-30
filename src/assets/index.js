@@ -19,6 +19,7 @@ import reactjs from "./tech/reactjs.svg";
 import tailwind from "./tech/tailwind.svg";
 import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
 
 import youtube from "./company/youtube.svg";
 import freecodecamp from "./company/freecodecamp.svg";
@@ -52,6 +53,7 @@ export {
   youtube,
   freecodecamp,
   kodego,
+  nextjs,
   nextjsportfolio,
   threejsportfolio,
   ssgtaskmanagement,
