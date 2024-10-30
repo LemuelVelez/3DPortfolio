@@ -60,10 +60,6 @@ const services = [
 
 const technologies = [
   {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
