@@ -106,6 +106,10 @@ const technologies = [
     name: "appwrite",
     icon: appwrite,
   },
+  {
+    name: "appwrite",
+    icon: appwrite,
+  },
 ];
 
 const experiences = [
