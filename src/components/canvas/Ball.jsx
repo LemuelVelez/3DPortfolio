@@ -51,7 +51,7 @@ const BallCanvas = ({ icon }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 200);
+      setIsMobile(window.innerWidth <= 480);
     };
 
     window.addEventListener("resize", handleResize);

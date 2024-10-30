@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     const handleResize = throttle(() => {
-      setIsMobile(window.innerWidth <= 500);
+      setIsMobile(window.innerWidth <= 480);
     }, 200); // Throttling resize events
 
     window.addEventListener("resize", handleResize);
