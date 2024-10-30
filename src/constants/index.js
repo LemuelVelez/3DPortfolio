@@ -72,20 +72,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "appwrite",
     icon: appwrite,
   },
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
