@@ -59,38 +59,6 @@ const services = [
 
 const technologies = [
   {
-    name: "appwrite",
-    icon: appwrite,
-  },
-  {
-    name: "html",
-    icon: html,
-  },
-  {
-    name: "css",
-    icon: css,
-  },
-  {
-    name: "javascript",
-    icon: javascript,
-  },
-  {
-    name: "typescript",
-    icon: typescript,
-  },
-  {
-    name: "reactjs",
-    icon: reactjs,
-  },
-  {
-    name: "tailwind",
-    icon: tailwind,
-  },
-  {
-    name: "nodejs",
-    icon: nodejs,
-  },
-  {
     name: "Laravel",
     icon: laravel,
   },
@@ -111,7 +79,31 @@ const technologies = [
     icon: appwrite,
   },
   {
-    name: "appwrite",
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
     icon: nodejs,
   },
 ];
