@@ -59,6 +59,10 @@ const services = [
 
 const technologies = [
   {
+    name: "appwrite",
+    icon: appwrite,
+  },
+  {
     name: "html",
     icon: html,
   },
@@ -108,7 +112,7 @@ const technologies = [
   },
   {
     name: "appwrite",
-    icon: appwrite,
+    icon: nodejs,
   },
 ];
 
