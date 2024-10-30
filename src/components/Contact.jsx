@@ -123,9 +123,8 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-        <ToastContainer position="bottom-center" style={{ zIndex: 9999 }} />
       </motion.div>
-
+      <ToastContainer position="bottom-center" style={{ zIndex: 9999 }} />
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
