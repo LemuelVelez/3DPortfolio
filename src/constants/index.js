@@ -83,7 +83,7 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "nodejs",
     icon: nodejs,
   },
   {
