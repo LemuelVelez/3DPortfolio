@@ -10,6 +10,7 @@ import {
   appwrite,
   youtube,
   kodego,
+  ssg,
   freecodecamp,
   nextjsportfolio,
   threejsportfolio,
@@ -80,36 +81,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer (Bootcamp Project)",
+    title: "Full Stack Developer",
     company_name: "KodeGo BootCamp, Philippines",
     icon: kodego,
     iconBg: "#383E56",
-    date: "July 2023 - September 2023",
+    date: "July 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Back-End Developer (Bootcamp Project)",
-    company_name: "KodeGo BootCamp, Philippines",
-    icon: kodego,
-    iconBg: "#E6DEDD",
-    date: "October 2023 - November 2023",
-    points: [
-      "Developed and maintained server-side logic and databases using Laravel, ensuring robust and scalable web applications.",
-      "Collaborated with front-end developers, designers, and product managers to integrate user-facing elements with server-side logic.",
-      "Optimized application performance by managing data storage solutions and enhancing query efficiency.",
-      "Conducted code reviews and provided valuable feedback to improve the back-end architecture and overall system performance.",
+      "Worked on full-stack development projects, building responsive web applications with a focus on user experience and performance.",
+      "On the frontend, used React and other technologies to create mobile-first, cross-browser-compatible interfaces",
+      "On the backend, developed server - side logic and managed databases with Laravel, collaborating closely with the frontend team to ensure seamless integration and data synchronization for optimized user interactions.",
     ],
   },
   {
     title: "Responsive Web Design",
     company_name: "freeCodeCamp",
     icon: freecodecamp,
-    iconBg: "#383E56",
+    iconBg: "#7A839F",
     date: "June 2024 - July 2024",
     points: [
       "Completed hands-on projects to master responsive web design principles, ensuring websites are visually appealing and functional across various devices.",
@@ -123,12 +110,23 @@ const experiences = [
     company_name: "YouTube",
     icon: youtube,
     iconBg: "#E6DEDD",
-    date: "Aug 2024 - Present",
+    date: "August 2024 - Present",
     points: [
       "Developing and maintaining full-stack web applications using a variety of technologies, including Django , Next.js, and React.js, .",
       "Actively engaging in self-directed learning through YouTube, constantly expanding knowledge in emerging technologies such as Three.js,Laravel and the MERN stack.",
       "Implementing responsive design and optimizing application performance to create seamless user experiences across multiple devices.",
       "Striving to master new tech stacks and frameworks, continuously refining skills to stay updated with the latest industry trends and best practices.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Supreme Student Government, Jose Rizal Memorial State University - Tampilisan Campus",
+    icon: ssg,
+    iconBg: "#6F6665",
+    date: "September 2024 - Present",
+    points: [
+      "Created the SSG Task Manager system, an in-house tool designed to streamline organizational workflows for the Supreme Student Government.",
+      "This project involved the full software development lifecycle from concept through implementation and has enhanced overall task management efficiency.",
     ],
   },
 ];

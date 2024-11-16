@@ -17,6 +17,7 @@ import nextjs from "./tech/nextjs.svg";
 import youtube from "./company/youtube.svg";
 import freecodecamp from "./company/freecodecamp.svg";
 import kodego from "./company/kodego.svg";
+import ssg from "./company/ssg.png";
 
 import nextjsportfolio from "./nextjsportfolio.png";
 import threejsportfolio from "./threejsportfolio.png";
@@ -42,5 +43,6 @@ export {
   nextjs,
   nextjsportfolio,
   threejsportfolio,
+  ssg,
   ssgtaskmanagement,
 };
