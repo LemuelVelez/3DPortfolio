@@ -10,11 +10,11 @@ import {
   appwrite,
   youtube,
   kodego,
-  ssg,
+  ssglogo,
   freecodecamp,
   nextjsportfolio,
   threejsportfolio,
-  ssgtaskmanagement,
+  bg,
   nextjs,
 } from "../assets";
 
@@ -121,12 +121,12 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Supreme Student Government, Jose Rizal Memorial State University - Tampilisan Campus",
-    icon: ssg,
+    icon: ssglogo,
     iconBg: "#6F6665",
     date: "September 2024 - Present",
     points: [
-      "Created the SSG Task Manager system, an in-house tool designed to streamline organizational workflows for the Supreme Student Government.",
-      "This project involved the full software development lifecycle from concept through implementation and has enhanced overall task management efficiency.",
+      "Created a comprehensive web application for the Supreme Student Government (SSG) to streamline attendance management at events and meetings",
+      "This system empowers students with easy registration, QR code-based check-ins, and personalized dashboards, while providing administrators with powerful tools for event management and reporting.",
     ],
   },
 ];
@@ -135,7 +135,7 @@ const projects = [
   {
     name: "NextJs Portfolio",
     description:
-      'Designed and developed a modern portfolio website using Next.js, showcasing personal projects, skills, and experiences with optimized performance and SEO.',
+      "Designed and developed a modern portfolio website using Next.js, showcasing personal projects, skills, and experiences with optimized performance and SEO.",
     tags: [
       {
         name: "nextjs",
@@ -151,6 +151,7 @@ const projects = [
       },
     ],
     image: nextjsportfolio,
+    live_demo_link: "https://my-portfolio-eight-xi-85.vercel.app/",
     source_code_link: "https://github.com/LemuelVelez/-My_Portfolio",
   },
   {
@@ -172,12 +173,13 @@ const projects = [
       },
     ],
     image: threejsportfolio,
+    live_demo_link: "https://3-js-portfolio-phi.vercel.app/",
     source_code_link: "https://github.com/LemuelVelez/3JS_PORTFOLIO",
   },
   {
-    name: "Task Management System",
+    name: "SSG Attendance and Participation Tracking System",
     description:
-      "This web application allows the SSG President to manage tasks, track attendance, and monitor participation through a mobile-friendly interface for efficient submissions.",
+      "This web application simplifies attendance management for the SSG with QR code check-ins, personalized dashboards, and powerful admin tools.",
     tags: [
       {
         name: "nextjs",
@@ -192,9 +194,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ssgtaskmanagement,
-    source_code_link: "https://github.com/LemuelVelez/ssg-task-manager",
+    image: bg,
+    live_demo_link: "https://ssg-qr-attendance.vercel.app/",
+    source_code_link: "https://github.com/LemuelVelez/SSG_QR_Attendance",
   },
 ];
+
 
 export { services, technologies, experiences, projects };

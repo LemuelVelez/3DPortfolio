@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import frontend from "./frontend.png";
 import web from "./web.png";
 import github from "./github.png";
+import livedemo from "./livedemo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -17,11 +18,11 @@ import nextjs from "./tech/nextjs.svg";
 import youtube from "./company/youtube.svg";
 import freecodecamp from "./company/freecodecamp.svg";
 import kodego from "./company/kodego.svg";
-import ssg from "./company/ssg.png";
+import ssglogo from "./company/ssglogo.jpg";
 
 import nextjsportfolio from "./nextjsportfolio.png";
 import threejsportfolio from "./threejsportfolio.png";
-import ssgtaskmanagement from "./ssgtaskmanagement.png";
+import bg from "./bg.webp";
 
 export {
   logo,
@@ -43,6 +44,7 @@ export {
   nextjs,
   nextjsportfolio,
   threejsportfolio,
-  ssg,
-  ssgtaskmanagement,
+  ssglogo,
+  bg,
+  livedemo,
 };
