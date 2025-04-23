@@ -2,6 +2,7 @@ import {
   frontend,
   backend,
   creator,
+  mobile,
   web,
   typescript,
   tailwind,
@@ -14,9 +15,12 @@ import {
   freecodecamp,
   nextjsportfolio,
   threejsportfolio,
+  qrtransit,
   bg,
   nextjs,
-} from "../assets";
+  reactnative,
+  expo,
+} from "../assets"
 
 export const navLinks = [
   {
@@ -31,7 +35,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-];
+]
 
 const services = [
   {
@@ -47,10 +51,14 @@ const services = [
     icon: backend,
   },
   {
+    title: "Mobile Developer",
+    icon: mobile,
+  },
+  {
     title: "System Application Creator",
     icon: creator,
   },
-];
+]
 
 const technologies = [
   {
@@ -77,7 +85,15 @@ const technologies = [
     name: "nextjs",
     icon: nextjs,
   },
-];
+  {
+    name: "React Native",
+    icon: reactnative,
+  },
+  {
+    name: "Expo",
+    icon: expo,
+  },
+]
 
 const experiences = [
   {
@@ -112,8 +128,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2024 - Present",
     points: [
-      "Developing and maintaining full-stack web applications using a variety of technologies, including Django , Next.js, and React.js, .",
-      "Actively engaging in self-directed learning through YouTube, constantly expanding knowledge in emerging technologies such as Three.js,Laravel and the MERN stack.",
+      "Developing and maintaining full-stack web applications using a variety of technologies, including Django, Next.js, and React.js.",
+      "Actively engaging in self-directed learning through YouTube, constantly expanding knowledge in emerging technologies such as Three.js, Laravel, React Native, and Expo.",
       "Implementing responsive design and optimizing application performance to create seamless user experiences across multiple devices.",
       "Striving to master new tech stacks and frameworks, continuously refining skills to stay updated with the latest industry trends and best practices.",
     ],
@@ -129,7 +145,7 @@ const experiences = [
       "This system empowers students with easy registration, QR code-based check-ins, and personalized dashboards, while providing administrators with powerful tools for event management and reporting.",
     ],
   },
-];
+]
 
 const projects = [
   {
@@ -198,7 +214,31 @@ const projects = [
     live_demo_link: "https://ssg-qr-attendance.vercel.app/",
     source_code_link: "https://github.com/LemuelVelez/SSG_QR_Attendance",
   },
-];
+  {
+    name: "QR Transit - Bus Ticketing System",
+    description:
+      "A mobile-first QR-coded bus ticketing system built with Expo React Native and Appwrite. Features include ticket generation, QR code scanning, and real-time tracking for a seamless transportation experience.",
+    tags: [
+      {
+        name: "expo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qrtransit,
+    live_demo_link:
+      "https://expo.dev/accounts/lemuel007/projects/QRTransit/builds/c9f74181-3662-45c6-9c70-daeb27b0410d?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBEwWkJsRnQyVERsbUtLUGw4SgEelPDHb0D_LJw3mHATvnVm9wpfDBoInQ9fQq0-k6pD-bBwjc-A8eH9WIIKx9s_aem_cnyD6vMNeGmE5wRzinrz9A/c9f74181-3662-45c6-9c70-daeb27b0410d",
+    source_code_link: "https://github.com/",
+    expo_link:
+      "https://expo.dev/accounts/lemuel007/projects/QRTransit/builds/c9f74181-3662-45c6-9c70-daeb27b0410d?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBEwWkJsRnQyVERsbUtLUGw4SgEelPDHb0D_LJw3mHATvnVm9wpfDBoInQ9fQq0-k6pD-bBwjc-A8eH9WIIKx9s_aem_cnyD6vMNeGmE5wRzinrz9A/c9f74181-3662-45c6-9c70-daeb27b0410d",
+  },
+]
 
-
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects }

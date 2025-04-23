@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -18,11 +20,13 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Lemuel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I focus on developing full-stack web applications,{" "}
+            I develop full-stack web applications{" "}
             <br className="sm:block hidden" />
-            continually learning and <br className="sm:block hidden" />
-            evolving to create reliable and <br className="sm:block hidden" />
-            adaptable solutions.
+            and mobile solutions with React Native,{" "}
+            <br className="sm:block hidden" />
+            continually learning and evolving to create{" "}
+            <br className="sm:block hidden" />
+            reliable and adaptable experiences.
           </p>
         </div>
       </div>
@@ -36,7 +40,7 @@ const Hero = () => {
               }}
               transition={{
                 duration: 1.5,
-                repeat: Infinity,
+                repeat: Number.POSITIVE_INFINITY,
                 repeatType: "loop",
               }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"

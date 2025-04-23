@@ -1,6 +1,5 @@
-import React from "react";
+"use client";
 import Tilt from "react-parallax-tilt";
-
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -17,6 +16,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   live_demo_link,
+  expo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -30,7 +30,7 @@ const ProjectCard = ({
       >
         <div className="relative w-full h-[230px]">
           <img
-            src={image}
+            src={image || "/placeholder.svg"}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
@@ -42,7 +42,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={github || "/placeholder.svg"}
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -50,10 +50,10 @@ const ProjectCard = ({
             {/* live demo link */}
             <div
               onClick={() => window.open(live_demo_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
             >
               <img
-                src={livedemo}
+                src={livedemo || "/placeholder.svg"}
                 alt="live demo"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -76,6 +76,35 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+        {expo_link && (
+          <div className="mt-4">
+            <a
+              href={expo_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gradient text-[14px] flex items-center gap-1 hover:underline"
+            >
+              <span>View on Expo</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="inline-block"
+              >
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        )}
       </Tilt>
     </motion.div>
   );

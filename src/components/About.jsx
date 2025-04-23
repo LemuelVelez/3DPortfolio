@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
-          src={icon}
+          src={icon || "/placeholder.svg"}
           alt="web-development"
           className="w-16 h-16 object-contain"
         />
@@ -47,11 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a committed software developer with a focus on full-stack
-        development, proficient in both front-end and back-end technologies,
-        including TypeScript, JavaScript, React, Next.js, Node.js, and Three.js.
-        I strive to create responsive and user-friendly applications that meet
-        real-world needs. Working closely with clients, I aim to deliver
+        I am a committed software developer with a focus on full-stack and
+        mobile development, proficient in both front-end and back-end
+        technologies, including TypeScript, JavaScript, React, Next.js, Node.js,
+        React Native, Expo, and Three.js. I strive to create responsive and
+        user-friendly applications that meet real-world needs across web and
+        mobile platforms. Working closely with clients, I aim to deliver
         efficient and scalable solutions that truly serve their purpose. I would
         be honored to collaborate and help bring your ideas to life in a
         thoughtful and impactful way.
