@@ -217,7 +217,7 @@ const projects = [
   {
     name: "QR Transit - Bus Ticketing System",
     description:
-      "A mobile-first QR-coded bus ticketing system built with Expo React Native and Appwrite. Features include ticket generation, QR code scanning, and real-time tracking for a seamless transportation experience.",
+      "A full-stack bus ticketing system with both web admin dashboard and mobile app. Features include QR code ticket generation, scanning, and real-time tracking for a seamless transportation experience.",
     tags: [
       {
         name: "expo",
@@ -231,10 +231,13 @@ const projects = [
         name: "appwrite",
         color: "pink-text-gradient",
       },
+      {
+        name: "nextjs",
+        color: "orange-text-gradient",
+      },
     ],
     image: qrtransit,
-    live_demo_link:
-      "https://expo.dev/accounts/lemuel007/projects/QRTransit/builds/c9f74181-3662-45c6-9c70-daeb27b0410d?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBEwWkJsRnQyVERsbUtLUGw4SgEelPDHb0D_LJw3mHATvnVm9wpfDBoInQ9fQq0-k6pD-bBwjc-A8eH9WIIKx9s_aem_cnyD6vMNeGmE5wRzinrz9A/c9f74181-3662-45c6-9c70-daeb27b0410d",
+    live_demo_link: "https://qrtransit-admin.vercel.app/",
     source_code_link: "https://github.com/",
     expo_link:
       "https://expo.dev/accounts/lemuel007/projects/QRTransit/builds/c9f74181-3662-45c6-9c70-daeb27b0410d?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBEwWkJsRnQyVERsbUtLUGw4SgEelPDHb0D_LJw3mHATvnVm9wpfDBoInQ9fQq0-k6pD-bBwjc-A8eH9WIIKx9s_aem_cnyD6vMNeGmE5wRzinrz9A/c9f74181-3662-45c6-9c70-daeb27b0410d",

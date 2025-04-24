@@ -17,6 +17,7 @@ const ProjectCard = ({
   source_code_link,
   live_demo_link,
   expo_link,
+  admin_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -77,32 +78,60 @@ const ProjectCard = ({
           ))}
         </div>
 
-        {expo_link && (
-          <div className="mt-4">
-            <a
-              href={expo_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gradient text-[14px] flex items-center gap-1 hover:underline"
-            >
-              <span>View on Expo</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="inline-block"
+        {(expo_link || admin_link) && (
+          <div className="mt-4 space-y-2">
+            {admin_link && (
+              <a
+                href={admin_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gradient text-[14px] flex items-center gap-1 hover:underline"
               >
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
-              </svg>
-            </a>
+                <span>Web Admin Dashboard</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="inline-block"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            )}
+            {expo_link && (
+              <a
+                href={expo_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gradient text-[14px] flex items-center gap-1 hover:underline"
+              >
+                <span>Mobile App on Expo</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="inline-block"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            )}
           </div>
         )}
       </Tilt>
