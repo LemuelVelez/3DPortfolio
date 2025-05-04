@@ -151,7 +151,7 @@ const projects = [
   {
     name: "NextJs Portfolio",
     description:
-      "Designed and developed a modern portfolio website using Next.js, showcasing personal projects, skills, and experiences with optimized performance and SEO.",
+      "Designed and developed a modern portfolio website using Next.js, showcasing personal projects, skills, and experiences.",
     tags: [
       {
         name: "nextjs",
